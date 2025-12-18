@@ -147,6 +147,10 @@ public class StudentOperations {
                 .forEach(System.out::println);
     }
 
+    public void printTarun(Student[] students){
+        System.out.println("tarunkumar");
+    }
+
 
     public static void main(String[] args) {
 
@@ -189,6 +193,9 @@ public class StudentOperations {
         studentOperations.first80(students);
         System.out.println("Students who scored distinction (≥ 75) : "+ studentOperations.dist(students));
         studentOperations.distName(students);
+
+
+        studentOperations.printTarun(students);
 
     }
 }
